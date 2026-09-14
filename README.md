@@ -9,9 +9,11 @@ every incoming customer message:
 2. **Drafts a reply** grounded in how AmazonHelp historically answered similar messages,
 3. **Decides** auto-handle vs. escalate-to-human, with a stated reason.
 
-Everything runs **fully local** (Ollama): `gemma4:e4b` classifies and drafts replies,
-`qwen3.5:4b` (a different model family, to avoid judge self-preference) judges reply
-quality.
+LLM inference runs fully locally via Ollama. `gemma4:e4b` is used for intent
+classification and LLM+RAG reply generation; `qwen3.5:4b` (a different model family,
+to avoid judge self-preference) is used as the reply-quality judge. Cached evaluation
+artifacts in `results/` let the headline results be reproduced without rerunning every
+LLM call, and the `tests/` suite needs no Ollama or network access.
 
 ## Dataset & Brand
 
@@ -21,8 +23,10 @@ quality.
   AppleSupport's median is 2 (a single "DM us" deflection), i.e. nothing to imitate.
   Full comparison: `report/brand_selection.md`.
 - **Corpus:** `data/amazonhelp_threads.csv` (15MB, committed) reconstructs 21,423
-  AmazonHelp conversations (78,686 tweets) from `twcs.csv` by walking reply chains
-  with turn alternation (`scripts/rebuild_corpus.py`).
+  AmazonHelp conversations (78,686 tweets) from Kaggle's `twcs.csv` by walking reply
+  chains with turn alternation (`scripts/rebuild_corpus.py`). This is the project's
+  reconstructed/canonical corpus; the underlying `twcs.csv` dataset remains an
+  external resource (Kaggle), not a product of this repository.
 
 You do **not** need the 516MB `twcs.csv`. To rebuild the corpus from it anyway:
 `python scripts/rebuild_corpus.py /path/to/twcs.csv` (~2 min).
@@ -155,9 +159,11 @@ ollama pull gemma4:e4b && ollama pull qwen3.5:4b   # ~13GB total, one-time
 ## Reproducing Results
 
 ```bash
-python run_pipeline.py                 # cached mode (~17s): retrains ML models,
-                                       # loads committed LLM outputs from results/
-python run_pipeline.py --fresh         # ~30 min: regenerates every LLM call
+python run_pipeline.py                 # cached mode (typically well under the 15-minute
+                                       # reproduction budget): retrains ML models, loads
+                                       # committed LLM outputs from results/
+python run_pipeline.py --fresh         # fresh mode — regenerates every LLM call; may take
+                                       # substantially longer depending on hardware/model config
 python run_pipeline.py --sample 30     # judge on 30-message subsample (default 50)
 python -m pytest tests/ -v             # 59 tests, no Ollama/network needed
 ```
