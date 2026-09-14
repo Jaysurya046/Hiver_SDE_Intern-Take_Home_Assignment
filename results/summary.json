@@ -1,0 +1,106 @@
+{
+  "intent": [
+    {
+      "system": "majority (trivial)",
+      "accuracy": 0.21,
+      "macro_f1": 0.0316
+    },
+    {
+      "system": "keyword rules (trivial)",
+      "accuracy": 0.525,
+      "macro_f1": 0.5908
+    },
+    {
+      "system": "tfidf+logreg (simple)",
+      "accuracy": 0.555,
+      "macro_f1": 0.5336
+    },
+    {
+      "system": "LLM gemma4:e4b (agent)",
+      "accuracy": 0.75,
+      "macro_f1": 0.7198
+    }
+  ],
+  "route": {
+    "keyword": {
+      "route_accuracy": 0.63,
+      "escalation_rate": 0.52,
+      "human_recall": 0.6595744680851063,
+      "auto_precision": 0.6666666666666666,
+      "missed_escalations": 32,
+      "false_alarms": 42
+    },
+    "ml": {
+      "route_accuracy": 0.565,
+      "escalation_rate": 0.755,
+      "human_recall": 0.8404255319148937,
+      "auto_precision": 0.6938775510204082,
+      "missed_escalations": 15,
+      "false_alarms": 72
+    },
+    "llm": {
+      "route_accuracy": 0.66,
+      "escalation_rate": 0.53,
+      "human_recall": 0.7021276595744681,
+      "auto_precision": 0.7021276595744681,
+      "missed_escalations": 28,
+      "false_alarms": 40
+    }
+  },
+  "judge_means": [
+    {
+      "system": "canned",
+      "groundedness": 3.72,
+      "helpfulness": 3.72,
+      "safety_tone": 5.0,
+      "brand_voice": 5.0,
+      "overall": 4.36
+    },
+    {
+      "system": "llm_rag",
+      "groundedness": 4.52,
+      "helpfulness": 3.98,
+      "safety_tone": 4.98,
+      "brand_voice": 4.96,
+      "overall": 4.61
+    },
+    {
+      "system": "retrieval",
+      "groundedness": 2.88,
+      "helpfulness": 2.44,
+      "safety_tone": 4.34,
+      "brand_voice": 4.26,
+      "overall": 3.48
+    }
+  ],
+  "judge_human_agreement": [
+    {
+      "dimension": "groundedness",
+      "spearman_rho": 0.24,
+      "cohen_kappa_linear": 0.102,
+      "mean_abs_diff": 0.92,
+      "exact_match_rate": 0.28
+    },
+    {
+      "dimension": "helpfulness",
+      "spearman_rho": 0.291,
+      "cohen_kappa_linear": 0.008,
+      "mean_abs_diff": 0.96,
+      "exact_match_rate": 0.2
+    },
+    {
+      "dimension": "safety_tone",
+      "spearman_rho": -0.029,
+      "cohen_kappa_linear": -0.027,
+      "mean_abs_diff": 0.06,
+      "exact_match_rate": 0.94
+    },
+    {
+      "dimension": "brand_voice",
+      "spearman_rho": -0.036,
+      "cohen_kappa_linear": -0.025,
+      "mean_abs_diff": 0.1,
+      "exact_match_rate": 0.92
+    }
+  ]
+}

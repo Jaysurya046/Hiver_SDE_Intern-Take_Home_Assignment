@@ -1,0 +1,601 @@
+ex_id,system,intent,route,reasons
+0,keyword,OTHER,human,non-English message: out of scope for the English-only agent
+1,keyword,OTHER,auto,standard flow
+2,keyword,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+3,keyword,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+4,keyword,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+5,keyword,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+6,keyword,OTHER,human,non-English message: out of scope for the English-only agent
+7,keyword,OTHER,auto,standard flow
+8,keyword,DELIVERY_ADDRESS,human,lexicon trigger 'profanity'
+9,keyword,OTHER,auto,standard flow
+10,keyword,DELIVERY_ADDRESS,auto,standard flow
+11,keyword,DAMAGED_OR_WRONG,auto,standard flow
+12,keyword,OTHER,auto,standard flow
+13,keyword,OTHER,auto,standard flow
+14,keyword,OTHER,human,non-English message: out of scope for the English-only agent
+15,keyword,RETURN_CANCEL,human,non-English message: out of scope for the English-only agent
+16,keyword,OTHER,human,non-English message: out of scope for the English-only agent
+17,keyword,ORDER_STATUS,auto,standard flow
+18,keyword,REVIEW_CONTENT,human,high-risk intent 'REVIEW_CONTENT' (money/account/support-complaint lanes)
+19,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+20,keyword,ORDER_STATUS,human,lexicon trigger 'churn_threat'
+21,keyword,OTHER,auto,standard flow
+22,keyword,OTHER,auto,standard flow
+23,keyword,PAYMENT,human,non-English message: out of scope for the English-only agent; high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+24,keyword,DAMAGED_OR_WRONG,auto,standard flow
+25,keyword,OTHER,auto,standard flow
+26,keyword,OTHER,auto,standard flow
+27,keyword,RETURN_CANCEL,auto,standard flow
+28,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+29,keyword,RETURN_CANCEL,auto,standard flow
+30,keyword,OTHER,human,non-English message: out of scope for the English-only agent
+31,keyword,PAYMENT,human,high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+32,keyword,OTHER,auto,standard flow
+33,keyword,ACCOUNT,human,non-English message: out of scope for the English-only agent; high-risk intent 'ACCOUNT' (money/account/support-complaint lanes); lexicon trigger 'fraud_security'
+34,keyword,DELIVERY_ADDRESS,human,specific money amount mentioned
+35,keyword,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+36,keyword,OTHER,human,lexicon trigger 'anger'
+37,keyword,RETURN_CANCEL,human,non-English message: out of scope for the English-only agent
+38,keyword,OTHER,human,non-English message: out of scope for the English-only agent
+39,keyword,OTHER,auto,standard flow
+40,keyword,DELIVERY_ADDRESS,human,non-English message: out of scope for the English-only agent
+41,keyword,OTHER,auto,standard flow
+42,keyword,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+43,keyword,DELIVERY_ADDRESS,auto,standard flow
+44,keyword,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+45,keyword,DELIVERY_ADDRESS,auto,standard flow
+46,keyword,OTHER,human,non-English message: out of scope for the English-only agent
+47,keyword,OTHER,auto,standard flow
+48,keyword,RETURN_CANCEL,auto,standard flow
+49,keyword,OTHER,auto,standard flow
+50,keyword,DELIVERY_ADDRESS,auto,standard flow
+51,keyword,OTHER,human,non-English message: out of scope for the English-only agent
+52,keyword,DAMAGED_OR_WRONG,auto,standard flow
+53,keyword,OTHER,auto,standard flow
+54,keyword,DAMAGED_OR_WRONG,human,lexicon trigger 'fraud_security'
+55,keyword,ORDER_STATUS,auto,standard flow
+56,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+57,keyword,OTHER,auto,standard flow
+58,keyword,OTHER,auto,standard flow
+59,keyword,OTHER,auto,standard flow
+60,keyword,ORDER_STATUS,auto,standard flow
+61,keyword,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+62,keyword,OTHER,auto,standard flow
+63,keyword,OTHER,human,non-English message: out of scope for the English-only agent
+64,keyword,OTHER,auto,standard flow
+65,keyword,OTHER,human,non-English message: out of scope for the English-only agent
+66,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+67,keyword,OTHER,auto,standard flow
+68,keyword,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+69,keyword,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+70,keyword,PAYMENT,human,high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+71,keyword,ORDER_STATUS,human,non-English message: out of scope for the English-only agent; lexicon trigger 'anger'
+72,keyword,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes); lexicon trigger 'anger'
+73,keyword,OTHER,auto,standard flow
+74,keyword,ACCOUNT,human,non-English message: out of scope for the English-only agent; high-risk intent 'ACCOUNT' (money/account/support-complaint lanes); lexicon trigger 'anger'
+75,keyword,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+76,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+77,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes); lexicon trigger 'fraud_security'
+78,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+79,keyword,OTHER,human,lexicon trigger 'anger'
+80,keyword,PAYMENT,human,high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+81,keyword,OTHER,human,non-English message: out of scope for the English-only agent
+82,keyword,OTHER,auto,standard flow
+83,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+84,keyword,OTHER,auto,standard flow
+85,keyword,OTHER,auto,standard flow
+86,keyword,RETURN_CANCEL,human,lexicon trigger 'churn_threat'
+87,keyword,DAMAGED_OR_WRONG,auto,standard flow
+88,keyword,APP_WEBSITE,auto,standard flow
+89,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+90,keyword,ORDER_STATUS,auto,standard flow
+91,keyword,DELIVERY_ADDRESS,human,lexicon trigger 'fraud_security'
+92,keyword,OTHER,human,non-English message: out of scope for the English-only agent
+93,keyword,OTHER,human,non-English message: out of scope for the English-only agent
+94,keyword,ORDER_STATUS,auto,standard flow
+95,keyword,OTHER,auto,standard flow
+96,keyword,DAMAGED_OR_WRONG,auto,standard flow
+97,keyword,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+98,keyword,OTHER,auto,standard flow
+99,keyword,OTHER,auto,standard flow
+100,keyword,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+101,keyword,OTHER,auto,standard flow
+102,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+103,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes); specific money amount mentioned
+104,keyword,APP_WEBSITE,auto,standard flow
+105,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+106,keyword,OTHER,auto,standard flow
+107,keyword,DELIVERY_ADDRESS,human,non-English message: out of scope for the English-only agent
+108,keyword,OTHER,human,non-English message: out of scope for the English-only agent
+109,keyword,OTHER,auto,standard flow
+110,keyword,OTHER,auto,standard flow
+111,keyword,DELIVERY_ADDRESS,human,lexicon trigger 'anger'
+112,keyword,RETURN_CANCEL,auto,standard flow
+113,keyword,DELIVERY_ADDRESS,auto,standard flow
+114,keyword,OTHER,human,lexicon trigger 'fraud_security'; specific money amount mentioned
+115,keyword,RETURN_CANCEL,auto,standard flow
+116,keyword,RETURN_CANCEL,auto,standard flow
+117,keyword,OTHER,auto,standard flow
+118,keyword,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+119,keyword,ORDER_STATUS,auto,standard flow
+120,keyword,DELIVERY_ADDRESS,human,lexicon trigger 'profanity'
+121,keyword,OTHER,auto,standard flow
+122,keyword,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes); lexicon trigger 'anger'
+123,keyword,OTHER,auto,standard flow
+124,keyword,RETURN_CANCEL,auto,standard flow
+125,keyword,ORDER_STATUS,human,non-English message: out of scope for the English-only agent
+126,keyword,APP_WEBSITE,auto,standard flow
+127,keyword,APP_WEBSITE,human,non-English message: out of scope for the English-only agent
+128,keyword,RETURN_CANCEL,auto,standard flow
+129,keyword,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+130,keyword,OTHER,auto,standard flow
+131,keyword,OTHER,auto,standard flow
+132,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+133,keyword,DELIVERY_ADDRESS,auto,standard flow
+134,keyword,OTHER,auto,standard flow
+135,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+136,keyword,OTHER,human,non-English message: out of scope for the English-only agent
+137,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+138,keyword,RETURN_CANCEL,auto,standard flow
+139,keyword,OTHER,auto,standard flow
+140,keyword,OTHER,auto,standard flow
+141,keyword,OTHER,auto,standard flow
+142,keyword,DELIVERY_ADDRESS,human,non-English message: out of scope for the English-only agent; lexicon trigger 'sensitive'
+143,keyword,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes); lexicon trigger 'anger'
+144,keyword,REVIEW_CONTENT,human,high-risk intent 'REVIEW_CONTENT' (money/account/support-complaint lanes)
+145,keyword,ACCOUNT,human,non-English message: out of scope for the English-only agent; high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+146,keyword,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+147,keyword,OTHER,human,lexicon trigger 'anger'
+148,keyword,RETURN_CANCEL,auto,standard flow
+149,keyword,OTHER,auto,standard flow
+150,keyword,ORDER_STATUS,human,specific money amount mentioned
+151,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+152,keyword,ACCOUNT,human,non-English message: out of scope for the English-only agent; high-risk intent 'ACCOUNT' (money/account/support-complaint lanes); lexicon trigger 'anger'
+153,keyword,OTHER,auto,standard flow
+154,keyword,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+155,keyword,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+156,keyword,OTHER,auto,standard flow
+157,keyword,RETURN_CANCEL,human,lexicon trigger 'churn_threat'
+158,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes); lexicon trigger 'anger'; lexicon trigger 'churn_threat'; specific money amount mentioned
+159,keyword,OTHER,human,non-English message: out of scope for the English-only agent
+160,keyword,OTHER,human,non-English message: out of scope for the English-only agent; no close precedent in retrieval history (sim=0.00)
+161,keyword,OTHER,auto,standard flow
+162,keyword,PAYMENT,human,non-English message: out of scope for the English-only agent; high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+163,keyword,APP_WEBSITE,auto,standard flow
+164,keyword,DAMAGED_OR_WRONG,auto,standard flow
+165,keyword,OTHER,human,non-English message: out of scope for the English-only agent
+166,keyword,DELIVERY_ADDRESS,human,non-English message: out of scope for the English-only agent
+167,keyword,RETURN_CANCEL,auto,standard flow
+168,keyword,ORDER_STATUS,auto,standard flow
+169,keyword,OTHER,auto,standard flow
+170,keyword,APP_WEBSITE,auto,standard flow
+171,keyword,DELIVERY_ADDRESS,auto,standard flow
+172,keyword,DELIVERY_ADDRESS,auto,standard flow
+173,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+174,keyword,OTHER,human,non-English message: out of scope for the English-only agent
+175,keyword,OTHER,auto,standard flow
+176,keyword,DAMAGED_OR_WRONG,auto,standard flow
+177,keyword,OTHER,auto,standard flow
+178,keyword,OTHER,auto,standard flow
+179,keyword,OTHER,auto,standard flow
+180,keyword,ORDER_STATUS,auto,standard flow
+181,keyword,ORDER_STATUS,auto,standard flow
+182,keyword,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes); lexicon trigger 'anger'
+183,keyword,RETURN_CANCEL,human,lexicon trigger 'churn_threat'
+184,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+185,keyword,OTHER,auto,standard flow
+186,keyword,OTHER,auto,standard flow
+187,keyword,OTHER,auto,standard flow
+188,keyword,ORDER_STATUS,human,non-English message: out of scope for the English-only agent; lexicon trigger 'anger'
+189,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+190,keyword,OTHER,auto,standard flow
+191,keyword,PAYMENT,human,high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+192,keyword,OTHER,human,lexicon trigger 'profanity'
+193,keyword,OTHER,auto,standard flow
+194,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+195,keyword,RETURN_CANCEL,auto,standard flow
+196,keyword,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+197,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+198,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+199,keyword,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+0,ml,DELIVERY_ADDRESS,human,non-English message: out of scope for the English-only agent
+1,ml,APP_WEBSITE,human,low intent confidence (0.16 < 0.45)
+2,ml,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+3,ml,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+4,ml,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+5,ml,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+6,ml,DAMAGED_OR_WRONG,human,non-English message: out of scope for the English-only agent
+7,ml,ORDER_STATUS,auto,standard flow
+8,ml,DELIVERY_ADDRESS,human,lexicon trigger 'profanity'
+9,ml,ORDER_STATUS,auto,standard flow
+10,ml,DELIVERY_ADDRESS,auto,standard flow
+11,ml,DAMAGED_OR_WRONG,auto,standard flow
+12,ml,ORDER_STATUS,human,low intent confidence (0.27 < 0.45)
+13,ml,DAMAGED_OR_WRONG,human,low intent confidence (0.26 < 0.45)
+14,ml,ORDER_STATUS,human,non-English message: out of scope for the English-only agent; low intent confidence (0.23 < 0.45)
+15,ml,RETURN_CANCEL,human,non-English message: out of scope for the English-only agent; low intent confidence (0.35 < 0.45)
+16,ml,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; low intent confidence (0.33 < 0.45); high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+17,ml,ORDER_STATUS,auto,standard flow
+18,ml,REVIEW_CONTENT,human,high-risk intent 'REVIEW_CONTENT' (money/account/support-complaint lanes)
+19,ml,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+20,ml,RETURN_CANCEL,human,low intent confidence (0.21 < 0.45); lexicon trigger 'churn_threat'
+21,ml,ORDER_STATUS,human,low intent confidence (0.29 < 0.45)
+22,ml,APP_WEBSITE,human,low intent confidence (0.31 < 0.45)
+23,ml,PAYMENT,human,non-English message: out of scope for the English-only agent; high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+24,ml,DAMAGED_OR_WRONG,auto,standard flow
+25,ml,ORDER_STATUS,human,low intent confidence (0.16 < 0.45)
+26,ml,ORDER_STATUS,human,low intent confidence (0.28 < 0.45)
+27,ml,DELIVERY_ADDRESS,human,low intent confidence (0.20 < 0.45)
+28,ml,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+29,ml,RETURN_CANCEL,human,low intent confidence (0.40 < 0.45)
+30,ml,REFUND,human,non-English message: out of scope for the English-only agent; high-risk intent 'REFUND' (money/account/support-complaint lanes)
+31,ml,PAYMENT,human,high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+32,ml,ORDER_STATUS,human,low intent confidence (0.22 < 0.45)
+33,ml,ACCOUNT,human,non-English message: out of scope for the English-only agent; high-risk intent 'ACCOUNT' (money/account/support-complaint lanes); lexicon trigger 'fraud_security'
+34,ml,DELIVERY_ADDRESS,human,low intent confidence (0.41 < 0.45); specific money amount mentioned
+35,ml,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+36,ml,APP_WEBSITE,human,low intent confidence (0.23 < 0.45); lexicon trigger 'anger'
+37,ml,RETURN_CANCEL,human,non-English message: out of scope for the English-only agent
+38,ml,ACCOUNT,human,non-English message: out of scope for the English-only agent; low intent confidence (0.21 < 0.45); high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+39,ml,RETURN_CANCEL,human,low intent confidence (0.19 < 0.45)
+40,ml,DELIVERY_ADDRESS,human,non-English message: out of scope for the English-only agent
+41,ml,REVIEW_CONTENT,human,low intent confidence (0.18 < 0.45); high-risk intent 'REVIEW_CONTENT' (money/account/support-complaint lanes)
+42,ml,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+43,ml,DELIVERY_ADDRESS,auto,standard flow
+44,ml,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+45,ml,DELIVERY_ADDRESS,auto,standard flow
+46,ml,DAMAGED_OR_WRONG,human,non-English message: out of scope for the English-only agent
+47,ml,ORDER_STATUS,human,low intent confidence (0.32 < 0.45)
+48,ml,RETURN_CANCEL,auto,standard flow
+49,ml,APP_WEBSITE,human,low intent confidence (0.20 < 0.45)
+50,ml,DELIVERY_ADDRESS,auto,standard flow
+51,ml,REFUND,human,non-English message: out of scope for the English-only agent; low intent confidence (0.24 < 0.45); high-risk intent 'REFUND' (money/account/support-complaint lanes)
+52,ml,DAMAGED_OR_WRONG,auto,standard flow
+53,ml,DAMAGED_OR_WRONG,human,low intent confidence (0.36 < 0.45)
+54,ml,DAMAGED_OR_WRONG,human,low intent confidence (0.35 < 0.45); lexicon trigger 'fraud_security'
+55,ml,ORDER_STATUS,auto,standard flow
+56,ml,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+57,ml,DAMAGED_OR_WRONG,human,low intent confidence (0.45 < 0.45)
+58,ml,PAYMENT,human,low intent confidence (0.28 < 0.45); high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+59,ml,ORDER_STATUS,auto,standard flow
+60,ml,ORDER_STATUS,auto,standard flow
+61,ml,PAYMENT,human,low intent confidence (0.30 < 0.45); high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+62,ml,ORDER_STATUS,human,low intent confidence (0.33 < 0.45)
+63,ml,DAMAGED_OR_WRONG,human,non-English message: out of scope for the English-only agent; low intent confidence (0.22 < 0.45)
+64,ml,ACCOUNT,human,low intent confidence (0.23 < 0.45); high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+65,ml,DAMAGED_OR_WRONG,human,non-English message: out of scope for the English-only agent; low intent confidence (0.25 < 0.45)
+66,ml,ORDER_STATUS,human,low intent confidence (0.34 < 0.45)
+67,ml,ORDER_STATUS,auto,standard flow
+68,ml,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+69,ml,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+70,ml,PAYMENT,human,high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+71,ml,ORDER_STATUS,human,non-English message: out of scope for the English-only agent; lexicon trigger 'anger'
+72,ml,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes); lexicon trigger 'anger'
+73,ml,DELIVERY_ADDRESS,human,low intent confidence (0.40 < 0.45)
+74,ml,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes); lexicon trigger 'anger'
+75,ml,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+76,ml,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+77,ml,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes); lexicon trigger 'fraud_security'
+78,ml,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+79,ml,DAMAGED_OR_WRONG,human,low intent confidence (0.20 < 0.45); lexicon trigger 'anger'
+80,ml,PAYMENT,human,high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+81,ml,ORDER_STATUS,human,non-English message: out of scope for the English-only agent
+82,ml,RETURN_CANCEL,human,low intent confidence (0.24 < 0.45)
+83,ml,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+84,ml,APP_WEBSITE,human,low intent confidence (0.43 < 0.45)
+85,ml,DAMAGED_OR_WRONG,human,low intent confidence (0.25 < 0.45)
+86,ml,RETURN_CANCEL,human,low intent confidence (0.42 < 0.45); lexicon trigger 'churn_threat'
+87,ml,DAMAGED_OR_WRONG,auto,standard flow
+88,ml,APP_WEBSITE,auto,standard flow
+89,ml,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+90,ml,ORDER_STATUS,auto,standard flow
+91,ml,DELIVERY_ADDRESS,human,lexicon trigger 'fraud_security'
+92,ml,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; low intent confidence (0.23 < 0.45); high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+93,ml,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+94,ml,ORDER_STATUS,auto,standard flow
+95,ml,ORDER_STATUS,auto,standard flow
+96,ml,DAMAGED_OR_WRONG,auto,standard flow
+97,ml,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+98,ml,ORDER_STATUS,human,low intent confidence (0.25 < 0.45)
+99,ml,ORDER_STATUS,auto,standard flow
+100,ml,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+101,ml,ORDER_STATUS,auto,standard flow
+102,ml,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+103,ml,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes); specific money amount mentioned
+104,ml,APP_WEBSITE,human,low intent confidence (0.40 < 0.45)
+105,ml,ORDER_STATUS,auto,standard flow
+106,ml,ORDER_STATUS,human,low intent confidence (0.38 < 0.45)
+107,ml,DELIVERY_ADDRESS,human,non-English message: out of scope for the English-only agent
+108,ml,DAMAGED_OR_WRONG,human,non-English message: out of scope for the English-only agent; low intent confidence (0.18 < 0.45)
+109,ml,ORDER_STATUS,human,low intent confidence (0.19 < 0.45)
+110,ml,DAMAGED_OR_WRONG,human,low intent confidence (0.16 < 0.45)
+111,ml,DELIVERY_ADDRESS,human,lexicon trigger 'anger'
+112,ml,RETURN_CANCEL,human,low intent confidence (0.39 < 0.45)
+113,ml,ORDER_STATUS,human,low intent confidence (0.41 < 0.45)
+114,ml,ORDER_STATUS,human,low intent confidence (0.24 < 0.45); lexicon trigger 'fraud_security'; specific money amount mentioned
+115,ml,RETURN_CANCEL,auto,standard flow
+116,ml,RETURN_CANCEL,auto,standard flow
+117,ml,DAMAGED_OR_WRONG,human,low intent confidence (0.26 < 0.45)
+118,ml,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+119,ml,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+120,ml,DELIVERY_ADDRESS,human,lexicon trigger 'profanity'
+121,ml,ORDER_STATUS,human,low intent confidence (0.22 < 0.45)
+122,ml,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes); lexicon trigger 'anger'
+123,ml,ORDER_STATUS,auto,standard flow
+124,ml,RETURN_CANCEL,auto,standard flow
+125,ml,ORDER_STATUS,human,non-English message: out of scope for the English-only agent; low intent confidence (0.40 < 0.45)
+126,ml,APP_WEBSITE,auto,standard flow
+127,ml,APP_WEBSITE,human,non-English message: out of scope for the English-only agent; low intent confidence (0.43 < 0.45)
+128,ml,RETURN_CANCEL,human,low intent confidence (0.39 < 0.45)
+129,ml,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+130,ml,REVIEW_CONTENT,human,low intent confidence (0.15 < 0.45); high-risk intent 'REVIEW_CONTENT' (money/account/support-complaint lanes)
+131,ml,ORDER_STATUS,human,low intent confidence (0.31 < 0.45)
+132,ml,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+133,ml,DELIVERY_ADDRESS,auto,standard flow
+134,ml,ORDER_STATUS,auto,standard flow
+135,ml,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+136,ml,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; low intent confidence (0.22 < 0.45); high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+137,ml,ACCOUNT,human,low intent confidence (0.37 < 0.45); high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+138,ml,RETURN_CANCEL,auto,standard flow
+139,ml,DELIVERY_ADDRESS,auto,standard flow
+140,ml,DELIVERY_ADDRESS,human,low intent confidence (0.32 < 0.45)
+141,ml,ORDER_STATUS,auto,standard flow
+142,ml,DELIVERY_ADDRESS,human,non-English message: out of scope for the English-only agent; lexicon trigger 'sensitive'
+143,ml,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes); lexicon trigger 'anger'
+144,ml,REVIEW_CONTENT,human,high-risk intent 'REVIEW_CONTENT' (money/account/support-complaint lanes)
+145,ml,ACCOUNT,human,non-English message: out of scope for the English-only agent; high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+146,ml,PAYMENT,human,high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+147,ml,SERVICE_COMPLAINT,human,low intent confidence (0.27 < 0.45); high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes); lexicon trigger 'anger'
+148,ml,RETURN_CANCEL,auto,standard flow
+149,ml,ORDER_STATUS,human,low intent confidence (0.26 < 0.45)
+150,ml,ORDER_STATUS,human,specific money amount mentioned
+151,ml,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+152,ml,ACCOUNT,human,non-English message: out of scope for the English-only agent; high-risk intent 'ACCOUNT' (money/account/support-complaint lanes); lexicon trigger 'anger'
+153,ml,DELIVERY_ADDRESS,auto,standard flow
+154,ml,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+155,ml,REVIEW_CONTENT,human,high-risk intent 'REVIEW_CONTENT' (money/account/support-complaint lanes)
+156,ml,ACCOUNT,human,low intent confidence (0.19 < 0.45); high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+157,ml,RETURN_CANCEL,human,lexicon trigger 'churn_threat'
+158,ml,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes); lexicon trigger 'anger'; lexicon trigger 'churn_threat'; specific money amount mentioned
+159,ml,DELIVERY_ADDRESS,human,non-English message: out of scope for the English-only agent; low intent confidence (0.18 < 0.45)
+160,ml,RETURN_CANCEL,human,non-English message: out of scope for the English-only agent; low intent confidence (0.15 < 0.45); no close precedent in retrieval history (sim=0.00)
+161,ml,DAMAGED_OR_WRONG,human,low intent confidence (0.22 < 0.45)
+162,ml,PAYMENT,human,non-English message: out of scope for the English-only agent; high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+163,ml,APP_WEBSITE,auto,standard flow
+164,ml,DAMAGED_OR_WRONG,auto,standard flow
+165,ml,ORDER_STATUS,human,non-English message: out of scope for the English-only agent; low intent confidence (0.44 < 0.45)
+166,ml,DELIVERY_ADDRESS,human,non-English message: out of scope for the English-only agent; low intent confidence (0.41 < 0.45)
+167,ml,RETURN_CANCEL,auto,standard flow
+168,ml,ORDER_STATUS,auto,standard flow
+169,ml,ACCOUNT,human,low intent confidence (0.19 < 0.45); high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+170,ml,APP_WEBSITE,auto,standard flow
+171,ml,DELIVERY_ADDRESS,auto,standard flow
+172,ml,DELIVERY_ADDRESS,auto,standard flow
+173,ml,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+174,ml,ORDER_STATUS,human,non-English message: out of scope for the English-only agent; low intent confidence (0.14 < 0.45)
+175,ml,ORDER_STATUS,auto,standard flow
+176,ml,DAMAGED_OR_WRONG,auto,standard flow
+177,ml,ORDER_STATUS,auto,standard flow
+178,ml,ORDER_STATUS,human,low intent confidence (0.19 < 0.45)
+179,ml,ORDER_STATUS,human,low intent confidence (0.26 < 0.45)
+180,ml,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+181,ml,DELIVERY_ADDRESS,auto,standard flow
+182,ml,ORDER_STATUS,human,non-English message: out of scope for the English-only agent; lexicon trigger 'anger'
+183,ml,RETURN_CANCEL,human,lexicon trigger 'churn_threat'
+184,ml,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+185,ml,ORDER_STATUS,auto,standard flow
+186,ml,PAYMENT,human,high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+187,ml,ACCOUNT,human,low intent confidence (0.20 < 0.45); high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+188,ml,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes); lexicon trigger 'anger'
+189,ml,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+190,ml,ORDER_STATUS,human,low intent confidence (0.25 < 0.45)
+191,ml,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+192,ml,ACCOUNT,human,low intent confidence (0.21 < 0.45); high-risk intent 'ACCOUNT' (money/account/support-complaint lanes); lexicon trigger 'profanity'
+193,ml,REFUND,human,low intent confidence (0.23 < 0.45); high-risk intent 'REFUND' (money/account/support-complaint lanes)
+194,ml,ACCOUNT,human,low intent confidence (0.42 < 0.45); high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+195,ml,ORDER_STATUS,auto,standard flow
+196,ml,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+197,ml,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+198,ml,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+199,ml,ACCOUNT,human,low intent confidence (0.28 < 0.45); high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+0,llm,DELIVERY_ADDRESS,human,non-English message: out of scope for the English-only agent
+1,llm,OTHER,auto,standard flow
+2,llm,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+3,llm,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+4,llm,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+5,llm,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+6,llm,OTHER,human,non-English message: out of scope for the English-only agent
+7,llm,OTHER,auto,standard flow
+8,llm,DELIVERY_ADDRESS,human,lexicon trigger 'profanity'
+9,llm,ORDER_STATUS,auto,standard flow
+10,llm,DELIVERY_ADDRESS,auto,standard flow
+11,llm,DAMAGED_OR_WRONG,auto,standard flow
+12,llm,ORDER_STATUS,auto,standard flow
+13,llm,DELIVERY_ADDRESS,auto,standard flow
+14,llm,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+15,llm,OTHER,human,non-English message: out of scope for the English-only agent
+16,llm,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+17,llm,ORDER_STATUS,auto,standard flow
+18,llm,RETURN_CANCEL,auto,standard flow
+19,llm,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+20,llm,DELIVERY_ADDRESS,human,lexicon trigger 'churn_threat'
+21,llm,ORDER_STATUS,auto,standard flow
+22,llm,APP_WEBSITE,auto,standard flow
+23,llm,REFUND,human,non-English message: out of scope for the English-only agent; high-risk intent 'REFUND' (money/account/support-complaint lanes)
+24,llm,DAMAGED_OR_WRONG,auto,standard flow
+25,llm,DAMAGED_OR_WRONG,auto,standard flow
+26,llm,DELIVERY_ADDRESS,auto,standard flow
+27,llm,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+28,llm,ORDER_STATUS,auto,standard flow
+29,llm,RETURN_CANCEL,auto,standard flow
+30,llm,REFUND,human,non-English message: out of scope for the English-only agent; high-risk intent 'REFUND' (money/account/support-complaint lanes)
+31,llm,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+32,llm,DAMAGED_OR_WRONG,auto,standard flow
+33,llm,PAYMENT,human,non-English message: out of scope for the English-only agent; high-risk intent 'PAYMENT' (money/account/support-complaint lanes); lexicon trigger 'fraud_security'
+34,llm,DELIVERY_ADDRESS,human,specific money amount mentioned
+35,llm,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+36,llm,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes); lexicon trigger 'anger'
+37,llm,ORDER_STATUS,human,non-English message: out of scope for the English-only agent
+38,llm,OTHER,human,non-English message: out of scope for the English-only agent
+39,llm,OTHER,auto,standard flow
+40,llm,DELIVERY_ADDRESS,human,non-English message: out of scope for the English-only agent
+41,llm,PAYMENT,human,high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+42,llm,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+43,llm,DELIVERY_ADDRESS,auto,standard flow
+44,llm,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+45,llm,DELIVERY_ADDRESS,auto,standard flow
+46,llm,OTHER,human,non-English message: out of scope for the English-only agent
+47,llm,DELIVERY_ADDRESS,auto,standard flow
+48,llm,RETURN_CANCEL,auto,standard flow
+49,llm,OTHER,auto,standard flow
+50,llm,ORDER_STATUS,auto,standard flow
+51,llm,OTHER,human,non-English message: out of scope for the English-only agent
+52,llm,DAMAGED_OR_WRONG,auto,standard flow
+53,llm,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+54,llm,OTHER,human,lexicon trigger 'fraud_security'
+55,llm,DELIVERY_ADDRESS,auto,standard flow
+56,llm,OTHER,auto,standard flow
+57,llm,REVIEW_CONTENT,human,high-risk intent 'REVIEW_CONTENT' (money/account/support-complaint lanes)
+58,llm,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+59,llm,ORDER_STATUS,auto,standard flow
+60,llm,ORDER_STATUS,auto,standard flow
+61,llm,PAYMENT,human,high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+62,llm,ORDER_STATUS,auto,standard flow
+63,llm,DAMAGED_OR_WRONG,human,non-English message: out of scope for the English-only agent
+64,llm,PAYMENT,human,high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+65,llm,DAMAGED_OR_WRONG,human,non-English message: out of scope for the English-only agent
+66,llm,DAMAGED_OR_WRONG,auto,standard flow
+67,llm,ORDER_STATUS,auto,standard flow
+68,llm,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+69,llm,RETURN_CANCEL,auto,standard flow
+70,llm,PAYMENT,human,high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+71,llm,DAMAGED_OR_WRONG,human,non-English message: out of scope for the English-only agent; lexicon trigger 'anger'
+72,llm,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes); lexicon trigger 'anger'
+73,llm,DELIVERY_ADDRESS,auto,standard flow
+74,llm,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes); lexicon trigger 'anger'
+75,llm,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+76,llm,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+77,llm,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes); lexicon trigger 'fraud_security'
+78,llm,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+79,llm,ORDER_STATUS,human,lexicon trigger 'anger'
+80,llm,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+81,llm,ORDER_STATUS,human,non-English message: out of scope for the English-only agent
+82,llm,DAMAGED_OR_WRONG,auto,standard flow
+83,llm,DELIVERY_ADDRESS,auto,standard flow
+84,llm,APP_WEBSITE,auto,standard flow
+85,llm,OTHER,auto,standard flow
+86,llm,ORDER_STATUS,human,lexicon trigger 'churn_threat'
+87,llm,OTHER,auto,standard flow
+88,llm,APP_WEBSITE,auto,standard flow
+89,llm,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+90,llm,ORDER_STATUS,auto,standard flow
+91,llm,DELIVERY_ADDRESS,human,lexicon trigger 'fraud_security'
+92,llm,OTHER,human,non-English message: out of scope for the English-only agent
+93,llm,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+94,llm,ORDER_STATUS,auto,standard flow
+95,llm,ORDER_STATUS,auto,standard flow
+96,llm,DAMAGED_OR_WRONG,auto,standard flow
+97,llm,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+98,llm,PAYMENT,human,high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+99,llm,ORDER_STATUS,auto,standard flow
+100,llm,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+101,llm,ORDER_STATUS,auto,standard flow
+102,llm,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+103,llm,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes); specific money amount mentioned
+104,llm,RETURN_CANCEL,auto,standard flow
+105,llm,OTHER,auto,standard flow
+106,llm,ORDER_STATUS,auto,standard flow
+107,llm,ORDER_STATUS,human,non-English message: out of scope for the English-only agent
+108,llm,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+109,llm,OTHER,auto,standard flow
+110,llm,PAYMENT,human,high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+111,llm,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes); lexicon trigger 'anger'
+112,llm,RETURN_CANCEL,auto,standard flow
+113,llm,DELIVERY_ADDRESS,auto,standard flow
+114,llm,PAYMENT,human,high-risk intent 'PAYMENT' (money/account/support-complaint lanes); lexicon trigger 'fraud_security'; specific money amount mentioned
+115,llm,DAMAGED_OR_WRONG,auto,standard flow
+116,llm,RETURN_CANCEL,auto,standard flow
+117,llm,REVIEW_CONTENT,human,high-risk intent 'REVIEW_CONTENT' (money/account/support-complaint lanes)
+118,llm,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+119,llm,ORDER_STATUS,auto,standard flow
+120,llm,DELIVERY_ADDRESS,human,lexicon trigger 'profanity'
+121,llm,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+122,llm,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes); lexicon trigger 'anger'
+123,llm,ORDER_STATUS,auto,standard flow
+124,llm,RETURN_CANCEL,auto,standard flow
+125,llm,DAMAGED_OR_WRONG,human,non-English message: out of scope for the English-only agent
+126,llm,APP_WEBSITE,auto,standard flow
+127,llm,PAYMENT,human,non-English message: out of scope for the English-only agent; high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+128,llm,RETURN_CANCEL,auto,standard flow
+129,llm,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+130,llm,OTHER,auto,standard flow
+131,llm,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+132,llm,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+133,llm,DELIVERY_ADDRESS,auto,standard flow
+134,llm,OTHER,auto,standard flow
+135,llm,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+136,llm,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+137,llm,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+138,llm,DELIVERY_ADDRESS,auto,standard flow
+139,llm,DAMAGED_OR_WRONG,auto,standard flow
+140,llm,DAMAGED_OR_WRONG,auto,standard flow
+141,llm,ORDER_STATUS,auto,standard flow
+142,llm,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes); lexicon trigger 'sensitive'
+143,llm,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes); lexicon trigger 'anger'
+144,llm,OTHER,auto,standard flow
+145,llm,ACCOUNT,human,non-English message: out of scope for the English-only agent; high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+146,llm,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+147,llm,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes); lexicon trigger 'anger'
+148,llm,RETURN_CANCEL,auto,standard flow
+149,llm,ORDER_STATUS,auto,standard flow
+150,llm,ORDER_STATUS,human,specific money amount mentioned
+151,llm,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+152,llm,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes); lexicon trigger 'anger'
+153,llm,ORDER_STATUS,auto,standard flow
+154,llm,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+155,llm,OTHER,auto,standard flow
+156,llm,OTHER,auto,standard flow
+157,llm,RETURN_CANCEL,human,lexicon trigger 'churn_threat'
+158,llm,PAYMENT,human,high-risk intent 'PAYMENT' (money/account/support-complaint lanes); lexicon trigger 'anger'; lexicon trigger 'churn_threat'; specific money amount mentioned
+159,llm,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+160,llm,OTHER,human,non-English message: out of scope for the English-only agent; no close precedent in retrieval history (sim=0.00)
+161,llm,REVIEW_CONTENT,human,high-risk intent 'REVIEW_CONTENT' (money/account/support-complaint lanes)
+162,llm,REFUND,human,non-English message: out of scope for the English-only agent; high-risk intent 'REFUND' (money/account/support-complaint lanes)
+163,llm,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+164,llm,DAMAGED_OR_WRONG,auto,standard flow
+165,llm,ORDER_STATUS,human,non-English message: out of scope for the English-only agent
+166,llm,DELIVERY_ADDRESS,human,non-English message: out of scope for the English-only agent
+167,llm,ORDER_STATUS,auto,standard flow
+168,llm,ORDER_STATUS,auto,standard flow
+169,llm,SERVICE_COMPLAINT,human,high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes)
+170,llm,APP_WEBSITE,auto,standard flow
+171,llm,OTHER,auto,standard flow
+172,llm,DELIVERY_ADDRESS,auto,standard flow
+173,llm,PAYMENT,human,high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+174,llm,OTHER,human,non-English message: out of scope for the English-only agent
+175,llm,ORDER_STATUS,auto,standard flow
+176,llm,DAMAGED_OR_WRONG,auto,standard flow
+177,llm,DELIVERY_ADDRESS,auto,standard flow
+178,llm,ORDER_STATUS,auto,standard flow
+179,llm,OTHER,auto,standard flow
+180,llm,ORDER_STATUS,auto,standard flow
+181,llm,ORDER_STATUS,auto,standard flow
+182,llm,ORDER_STATUS,human,non-English message: out of scope for the English-only agent; lexicon trigger 'anger'
+183,llm,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes); lexicon trigger 'churn_threat'
+184,llm,DELIVERY_ADDRESS,auto,standard flow
+185,llm,OTHER,auto,standard flow
+186,llm,PAYMENT,human,high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+187,llm,OTHER,auto,standard flow
+188,llm,SERVICE_COMPLAINT,human,non-English message: out of scope for the English-only agent; high-risk intent 'SERVICE_COMPLAINT' (money/account/support-complaint lanes); lexicon trigger 'anger'
+189,llm,ORDER_STATUS,auto,standard flow
+190,llm,ORDER_STATUS,auto,standard flow
+191,llm,PAYMENT,human,high-risk intent 'PAYMENT' (money/account/support-complaint lanes)
+192,llm,DAMAGED_OR_WRONG,human,lexicon trigger 'profanity'
+193,llm,OTHER,auto,standard flow
+194,llm,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+195,llm,DELIVERY_ADDRESS,auto,standard flow
+196,llm,REFUND,human,high-risk intent 'REFUND' (money/account/support-complaint lanes)
+197,llm,ACCOUNT,human,high-risk intent 'ACCOUNT' (money/account/support-complaint lanes)
+198,llm,ORDER_STATUS,auto,standard flow
+199,llm,OTHER,auto,standard flow
