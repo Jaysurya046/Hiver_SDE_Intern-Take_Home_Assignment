@@ -242,3 +242,11 @@ In priority order, each item mapped to a failure mode above:
 | 13 | Judge on 50-message subsample | judge latency; 3 systems x 200 would exceed every budget |
 | 14 | Route metrics split missed-escalations from false alarms | accuracy alone hides the asymmetric cost structure |
 | 15 | Added capability/risk layer to routing policy | failure analysis showed topics (e.g. delivery) don't capture required actions (e.g. refund/tracking). Chose specific signals (account lookup, fraud, profanity) to fix false negatives without inflating false alarms. Existing thresholds were preserved to maintain baseline performance. |
+
+## 8. Submission Information & Artifacts
+
+**GitHub Repository:** https://github.com/Jaysurya046/Hiver_SDE_Intern-Take_Home_Assignment
+**Brand Selection :** https://github.com/Jaysurya046/Hiver_SDE_Intern-Take_Home_Assignment/blob/main/report/brand_selection.md
+**Full Evaluation Report:** https://github.com/Jaysurya046/Hiver_SDE_Intern-Take_Home_Assignment/blob/main/report/report.md
+**Golden Evaluation Dataset:** https://github.com/Jaysurya046/Hiver_SDE_Intern-Take_Home_Assignment/blob/main/golden_set.csv
+**Results Summary.json:** https://github.com/Jaysurya046/Hiver_SDE_Intern-Take_Home_Assignment/blob/main/results/summary.json 
