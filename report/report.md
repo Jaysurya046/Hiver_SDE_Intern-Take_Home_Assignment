@@ -245,8 +245,8 @@ In priority order, each item mapped to a failure mode above:
 
 ## 8. Submission Information & Artifacts
 
-**GitHub Repository:** https://github.com/Jaysurya046/Hiver_SDE_Intern-Take_Home_Assignment
-**Brand Selection :** https://github.com/Jaysurya046/Hiver_SDE_Intern-Take_Home_Assignment/blob/main/report/brand_selection.md
-**Full Evaluation Report:** https://github.com/Jaysurya046/Hiver_SDE_Intern-Take_Home_Assignment/blob/main/report/report.md
-**Golden Evaluation Dataset:** https://github.com/Jaysurya046/Hiver_SDE_Intern-Take_Home_Assignment/blob/main/golden_set.csv
-**Results Summary.json:** https://github.com/Jaysurya046/Hiver_SDE_Intern-Take_Home_Assignment/blob/main/results/summary.json 
+1. **GitHub Repository:** https://github.com/Jaysurya046/Hiver_SDE_Intern-Take_Home_Assignment
+2. **Brand Selection :** https://github.com/Jaysurya046/Hiver_SDE_Intern-Take_Home_Assignment/blob/main/report/brand_selection.md
+3. **Full Evaluation Report:** https://github.com/Jaysurya046/Hiver_SDE_Intern-Take_Home_Assignment/blob/main/report/report.md
+4. **Golden Evaluation Dataset:** https://github.com/Jaysurya046/Hiver_SDE_Intern-Take_Home_Assignment/blob/main/golden_set.csv
+5. **Results Summary.json:** https://github.com/Jaysurya046/Hiver_SDE_Intern-Take_Home_Assignment/blob/main/results/summary.json 
